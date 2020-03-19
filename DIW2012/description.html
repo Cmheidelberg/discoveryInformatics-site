@@ -10,9 +10,17 @@
 <script>
 $(document).ready(function(){
     //load the parts of the page that are always the same across the portal
-    $("#footerContent").load("footer.html");
+    $("#topContent").load("../top_menu.html");
 });
 </script>
+
+<script>
+$(document).ready(function(){
+    //load the parts of the page that are always the same across the portal
+    $("#footerContent").load("../footer.html");
+});
+</script>
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118863115-5"></script>
@@ -25,6 +33,10 @@ $(document).ready(function(){
 </script>
 
 <body>
+
+<!-- Header (defined in top_menu.html)-->
+<header class="w3-container w3-theme-dark w3-padding-16" id ="topContent">
+</header>
 
 <header class="w3-container w3-theme w3-padding w3-center" id="topMenu"> 
 <div class="w3-container">
