@@ -1,0 +1,14 @@
+.article-teaser.article-sticky {background: #c8c8c9;}
+.article-teaser {padding: 10px;}
+.article {margin: 0 0 15px 0;padding: 0;}
+.article-teaser {border: 1px solid #c8c8c9;} input.form-submit, input.form-text, .rc-4 .article-teaser, .rc-4 .comment, .rc-4 .block-inner {-moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}
+.block .article {padding: 5px 5px 0;}
+article {display: block;}
+body.bf-cc, .bf-cc .form-text, .snf-cc #site-name, .ssf-cc #site-slogan, .ptf-cc #page-title, .ntf-cc .article-title, .ctf-cc .comment-title, .btf-cc .block-title {font-family: Calibri, Candara, Arial, Helvetica, sans-serif;}
+.fs-medium {font-size: 1em;}
+body {line-height: 1.5;}
+body {color: #555555;background: #e7e9e9 url(/web/20161018192957im_/http://discoveryinformaticsinitiative.org/sites/default/files/color/pixture_reloaded-f081e871/bg-wall.png) repeat-x left top;}
+html {font-size: 81.3%;}
+user agent stylesheet
+html {color: -internal-root-color;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
