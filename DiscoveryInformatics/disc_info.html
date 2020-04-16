@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang=en>
+
     <title>DISK: Automated DIscovery of Scientific Knowledge</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,21 @@
     <link rel="stylesheet" href="../css/nav.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            //load the parts of the page that are always the same across the portal
+            $("#topContent").load("../top_menu.html");
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            //load the parts of the page that are always the same across the portal
+            $("#footerContent").load("../footer.html");
+        });
+    </script>
+
     <style>
         h2 {
             color: #2f416f;
@@ -19,23 +35,10 @@
     </style>
     <body>
 
-        <div class="container">
-            <div class="logo">
-                <img src="../images/dnalogo_3.png" alt="" width="550" />
-            </div>
-            <nav class="main-nav">
-                <ul class="ul-list">
-                    <li class="active"><a id="no-color" href="../DiscoveryInformatics/disc_info.html">Discovery Informatics</a>
-                    </li>
-                    <li><a id="no-color" href="../DIW2012/index.html">DIW 2012</a></li>
-                    <li><a id="no-color">DIS 2012</a></li>
-                    <li><a id="no-color">DIS 2013</a></li>
-                    <li><a id="no-color">DIW 2014</a></li>
-                    <li><a id="no-color">DI-KDD 2014</a></li>
-                    <li><a id="no-color">DI-PSB 2015</a></li>
-                </ul>
-            </nav>
-        </div>
+        <!-- Header (defined in top_menu.html)-->
+        <header class="w3-container w3-theme-dark w3-padding-16" id ="topContent">
+        </header>
+        <br><br>
         <br><br>
     
 
